@@ -12,7 +12,7 @@ const formatar = (time) => {
 
 const elementosA = () => {
     const button = document.getElementById('inicio');
-    const accao = button.getAttribute('action');
+    const accao = button.getAttribute('accao');
 
     clearInterval(contador);
 
@@ -21,11 +21,11 @@ const elementosA = () => {
             tempoA += 1;
             inserir(tempoA)
         }, 10);
-        button.setAttribute('action', 'pause');
+        button.setAttribute('accao', 'pause');
         button.innerHTML = '<i class="fa-solid fa-pause"></i>';
     } else if (accao == 'pause') {
         clearInterval(contador);
-        button.setAttribute('action', 'continue');
+        button.setAttribute('accao', 'continue');
         button.innerHTML = '<i class="fa-solid fa-play"></i>';
 
     }

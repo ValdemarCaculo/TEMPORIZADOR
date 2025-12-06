@@ -21,11 +21,11 @@ const elementosA = () => {
             tempoA += 1;
             inserir(tempoA)
         }, 10);
-        button.setAttribute('action', 'pause');
+        button.setAttribute('accao', 'pause');
         button.innerHTML = '<i class="fa-solid fa-pause"></i>';
     } else if (accao == 'pause') {
-        clearInterval(contador);
-        button.setAttribute('action', 'continue');
+        cle
+        button.setAttribute('accao', 'continue');
         button.innerHTML = '<i class="fa-solid fa-play"></i>';
 
     }

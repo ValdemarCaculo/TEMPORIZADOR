@@ -25,7 +25,7 @@ const elementosA = () => {
         button.innerHTML = '<i class="fa-solid fa-pause"></i>';
     } else if (accao == 'pause') {
         clearInterval(contador);
-        button.setAttribute('action', 'continue');
+        button.setAttribute('accao', 'continue');
         button.innerHTML = '<i class="fa-solid fa-play"></i>';
 
     }
