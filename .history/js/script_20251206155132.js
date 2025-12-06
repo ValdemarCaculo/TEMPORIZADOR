@@ -1,0 +1,7 @@
+const tempo = document.getElementById('time');
+let contador = 0;
+let timer = 0;
+
+const formata =(time)=>{
+const hora = ma
+};
