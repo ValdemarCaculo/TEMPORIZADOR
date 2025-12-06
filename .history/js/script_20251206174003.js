@@ -44,7 +44,7 @@ const limpar = () => {
     accao = button.getAttribute('action', 'start');
     button.innerHTML = '<i class="fa-solid fa-play"></i>';
 
-}
 
+}
 document.getElementById('inicio').addEventListener('click', elementosA);
-document.getElementById('reset').addEventListener('click', limpar);
+document.getElementById('inicio').addEventListener('click', elementosA);

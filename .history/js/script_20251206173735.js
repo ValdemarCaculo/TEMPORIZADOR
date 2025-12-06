@@ -36,15 +36,8 @@ const elementosA = () => {
 const inserir = (valor) => {
     tempo.innerText = formatar(valor);
 }
-const limpar = () => {
+const limpar = () =>{
     clearInterval(contador);
-    tempoA = 0;
-    inserir(tempoA)
-    const button = document.getElementById('inicio');
-    accao = button.getAttribute('action', 'start');
-    button.innerHTML = '<i class="fa-solid fa-play"></i>';
-
+    tempoA =0;
 }
-
 document.getElementById('inicio').addEventListener('click', elementosA);
-document.getElementById('reset').addEventListener('click', limpar);

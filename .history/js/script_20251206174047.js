@@ -47,4 +47,4 @@ const limpar = () => {
 }
 
 document.getElementById('inicio').addEventListener('click', elementosA);
-document.getElementById('reset').addEventListener('click', limpar);
+document.getElementById('reset').addEventListener('click', elementosA);
